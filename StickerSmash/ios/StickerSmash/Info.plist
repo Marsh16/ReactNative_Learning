@@ -83,6 +83,8 @@
     <string>Automatic</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>This app needs access to your photo library to select and save images for creating custom stickers.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs access to your photo library to select and save images for creating custom stickers.</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
   </dict>
