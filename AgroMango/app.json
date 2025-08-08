@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "AgroMangga",
-    "slug": "AgroMangga",
+    "name": "AgroMango",
+    "slug": "AgroMango",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "agromangga",
+    "scheme": "agromango",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
