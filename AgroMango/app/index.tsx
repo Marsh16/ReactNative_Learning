@@ -1,4 +1,5 @@
-import { Text, View, ScrollView, TouchableOpacity } from "react-native";
+import WelcomeImage from "@/components/features/welcome-page/WelcomeImage";
+import { Text, View, ScrollView, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
@@ -11,16 +12,12 @@ export default function Index() {
             <Text className="text-white text-lg font-bold">🌱</Text>
           </View>
           <Text className="text-2xl font-bold text-green-600">
-            AgroMango{'\n'}Companion
+            AgroMango{'\n'}
           </Text>
         </View>
 
         {/* Farmer Illustration Placeholder */}
-        <View className="bg-gray-100 rounded-2xl h-64 mb-8 items-center justify-center">
-          <View className="w-32 h-32 bg-green-600 rounded-full items-center justify-center">
-            <Text className="text-white text-4xl">👨‍🌾</Text>
-          </View>
-        </View>
+        <WelcomeImage/>
 
         {/* Welcome Text */}
         <Text className="text-3xl font-bold text-gray-900 mb-4">
